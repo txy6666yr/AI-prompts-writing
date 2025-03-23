@@ -167,7 +167,7 @@
 > - **英文版：**  
 >   > Can you help me ensure that the grammar and spelling are correct in the following paragraph? Do not polish the text. If no mistake is found, tell me that this paragraph is good. If you find errors, list them in a two-column Markdown table with the original sentence in the first column and the corrected sentence in the second column. Highlight the key words you fixed.
 > - **中文版：**  
->   > 请帮我确认下面这段文字的语法和拼写是否正确，不要进行润色。如果没有错误，请告诉我这段话很好。如果有错误，请以三列 Markdown 表格列出错误句子、更正后的句子和并突出修改的关键词。
+>   > 请帮我确认下面这段文字的语法和拼写是否正确，不要进行润色。如果没有错误，请告诉我这段话很好。如果有错误，请以三列 Markdown 表格列出错误句子、更正后的句子并突出修改的关键词。
 
 ##### **3.6 润色定位**
 > **目的**：在给出修改后文本时，能定位到具体改动了哪些段落或句子，方便检查。  
