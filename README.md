@@ -27,6 +27,44 @@
 使用时建议先给 GPT 设定好「学术专家」角色，然后在各阶段按照需要复制示例提示，**使用完后记得删除指令内容**。
 
 ---
+## xpy 自用添加
+
+### 差错别字
+请帮我确认下面这段学术论文的语法和拼写是否正确，不要进行润色。同时，注意论文中是否包含绝对化的表达如：显著、核心等。如果没有错误，请告诉我这段话很好。如果有错误，请以双列 Markdown 表格列出错误句子和更正后的句子，并突出修改的关键词。
+
+### 根据修改意见修改
+以下是一篇学术论文中的段落。请按照学术论文的写作要求和下面的修改意见进行修改，注意拼写、语法、逻辑等，使其更加符合学术论文规范，不要出现“显著”、“核心”等绝对性和不适合表述的词语，不要分点、分小节描述。如有必要可重写整句话，并使用 Markdown 表格列出所有修改之处和修改原因。
+
+修改意见：修改下面段落中7.2节中【】包裹的部分，根据【】内提示内容，补全或者修改具体内容，使其上下文连贯，并符合学术论文要求。
+段落内容：
+
+### 表格markdown转latex
+请使用下面学术论文的参考latex表格格式，将给定的markdown表格转为学术论文latex格式。
+
+参考latex格式(学术论文格式)
+```latex
+\begin{table}[htbp] 
+\centering 
+\caption{不同分类标准特点对比} 
+\label{tab:3-1} 
+\begin{tabularx}{\linewidth}{p{3.5cm}ccX} % 调整列宽度
+\toprule 
+\multicolumn{1}{c}{数据集名称} & \multicolumn{1}{c}{一级分类数目} & \multicolumn{1}{c}{二级分类数目} & \multicolumn{1}{c}{涵盖场景} \\ 
+\midrule 
+OpenAI Moderation API Dataset & 5 & 10 & 多语言有害内容检测 \\ 
+Perspective API & 7 & 8 & 多语言有害内容检测 \\ 
+Safety-Prompts & 2 & 13 & 中文各类安全场景和指令攻击 \\ 
+\bottomrule 
+\end{tabularx} 
+\end{table}
+```
+给定markdown表格
+```markdown
+
+```
+
+---
+
 
 ## 一、初期阶段（Pre-Writing）
 
